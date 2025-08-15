@@ -26,7 +26,7 @@ h1,h2,h3 {
 }
 
 
-/* Cabeçalho */
+
 header {
     background-image: linear-gradient(to bottom, black, transparent);
     color: white;
@@ -75,8 +75,8 @@ section {
 
 .skills {
     display: flex;
-    align-items: center; /* Isso centraliza verticalmente */
-    gap: 2rem;           /* Espaço entre o título e as listas */
+    align-items: center; 
+    gap: 2rem;           
     background-color: #111;
     font-size: larger;
     border-radius: 30px;
@@ -87,13 +87,13 @@ section {
 
 .skills h1 {
     font-size: xx-large;
-    margin: 0;          /* Remove qualquer margem extra */
+    margin: 0;          
 }
 
 .skills ol {
     list-style: circle;
     margin: 0;
-    padding-left: 1.2rem;  /* Mantém a indentação das listas */
+    padding-left: 1.2rem;  
 }
 
 
@@ -106,7 +106,6 @@ section {
     list-style: circle;
 }
 
-/* Projetos */
 .projetos-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -141,7 +140,6 @@ section {
     font-weight: bolder;
 }
 
-/* Rodapé */
 footer {
     text-align: center;
     padding: 6.55rem;
@@ -180,7 +178,6 @@ footer .line {
 }
 
 
-/* Responsivo */
 @media (max-width: 600px) {
     header nav {
         display: flex;
