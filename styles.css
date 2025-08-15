@@ -13,7 +13,7 @@ html{
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-image: repeating-radial-gradient(#363636, white, #2c003e)
+    background-image: repeating-radial-gradient(#a3a0a0, rgb(10, 69, 108), #01192e)
 }
 
 p {
